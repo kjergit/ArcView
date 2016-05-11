@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcView">
+        <attr name="progress" format="float" />
+        <attr name="startAngle" format="float" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="behindArcWidth" format="dimension" />
+        <attr name="behindColor" format="color" />
+        <attr name="frontArcWidth" format="dimension" />
+        <attr name="frontColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleArcWidth" format="dimension"/>
+        <attr name="arcCapModel" format="enum">
+            <enum name="round" value="0" />
+            <enum name="square" value="1" />
+            <enum name="butt" value="2" />
+        </attr>
+        <attr name="arcCircleStyle" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+            <enum name="fill_and_stroke" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
+
