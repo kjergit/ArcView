@@ -46,7 +46,7 @@
 
 #可在XML设置属性
 
- <com.timaimee.arcview.view.ArcView
+        <com.timaimee.arcview.view.ArcView
         android:id="@+id/arcView"
         android:layout_width="260dp"
         android:layout_height="260dp"
